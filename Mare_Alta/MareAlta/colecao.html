@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maré Alta - Nossa Coleção</title>
+
+  <!-- Fontes do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="mareAlta.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO FIXO -->
+  <header id="cabecalho-principal">
+    <nav class="barra-navegacao">
+      <a href="Index.html" class="logotipo">
+        <span class="texto-logo">Maré Alta</span>
+      </a>
+
+      <ul class="links-navegacao">
+        <li><a href="MareAlta.html">Início</a></li>
+        <li><a href="colecao.html" class="ativo">Coleção</a></li>
+        <li><a href="Index.html#sobre">Sobre</a></li>
+        <li><a href="Index.html#contato">Contato</a></li>
+      </ul>
+
+      <div class="acoes-navegacao">
+        <a href="#" class="botao-entrar">Entrar</a>
+        <a href="#" class="icone-carrinho" aria-label="Carrinho de Compras">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+        </a>
+      </div>
+    </nav>
+
+    <div class="barra-anuncios">
+      <span>Frete grátis acima de R$ 299</span>
+      <span>Nova coleção disponível</span>
+      <span>Parcelamento em até 10x sem juros</span>
+      <span>Devolução grátis</span>
+    </div>
+  </header>
+
+  <!-- SEÇÃO DE CATÁLOGO / COLEÇÃO DA ALA MASCULINA -->
+  <main style="padding-top: 100px;">
+    <section class="secao-catalogo masculino" id="colecao-masculina">
+      
+      <!-- Banner Topo da Ala -->
+      <header class="banner-ala banner-masculino">
+        <div class="formas-decorativas"></div>
+        <div class="conteudo-banner-ala">
+          <span class="subtitulo-colecao">Coleção 2026</span>
+          <h1 class="titulo-ala">Ala <span>Masculina</span></h1>
+          <p class="descricao-ala">Bermudas, sungas, camisas e modelos leves para curtir o mar.</p>
+        </div>
+      </header>
+
+      <!-- Container de Filtros e Produtos -->
+      <div class="container-produtos">
+        
+        <!-- Filtros de Categoria/Tags -->
+        <div class="cabecalho-filtros">
+          <h2 class="titulo-sessao">Peças que <em>brilham</em> no verão</h2>
+          <div class="tags-filtro">
+            <button class="tag-item ativo">Todas</button>
+            <button class="tag-item">Bermudas</button>
+            <button class="tag-item">Sungas</button>
+            <button class="tag-item">Camisas</button>
+            <button class="tag-item">Kits</button>
+          </div>
+        </div>
+
+        <!-- Grid de Produtos -->
+        <div class="grid-produtos">
+          
+          <!-- Card Produto 1 -->
+          <article class="cartao-produto">
+            <button class="favorito-btn" aria-label="Favoritar">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="imagem-produto">
+              <img src="https://images.unsplash.com/photo-1591737591066-7b8c9a2a6940?auto=format&fit=crop&w=400&q=80" alt="Bermuda Horizon Black">
+            </div>
+            <div class="info-produto">
+              <h3 class="nome-produto">Bermuda Horizon Black</h3>
+              <p class="categoria-produto">Corte Anatômico</p>
+              <div class="preco-produto">
+                <span class="preco-atual">R$ 159,90</span>
+              </div>
+              <div class="opcoes-cor">
+                <span class="cor-circulo" style="background-color: #111;"></span>
+                <span class="cor-circulo" style="background-color: #1b365d;"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card Produto 2 -->
+          <article class="cartao-produto">
+            <button class="favorito-btn" aria-label="Favoritar">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="imagem-produto">
+              <img src="https://images.unsplash.com/photo-1507553532144-b9df5e38c8d1?auto=format&fit=crop&w=400&q=80" alt="Short Water Elastic">
+            </div>
+            <div class="info-produto">
+              <h3 class="nome-produto">Short Water Elastic White</h3>
+              <p class="categoria-produto">Tecido Secagem Rápida</p>
+              <div class="preco-produto">
+                <span class="preco-atual">R$ 139,90</span>
+              </div>
+              <div class="opcoes-cor">
+                <span class="cor-circulo" style="background-color: #fff; border: 1px solid #ccc;"></span>
+                <span class="cor-circulo" style="background-color: #72a0c1;"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card Produto 3 -->
+          <article class="cartao-produto">
+            <button class="favorito-btn" aria-label="Favoritar">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+            <div class="imagem-produto">
+              <img src="https://images.unsplash.com/photo-1506629082925-236be3a07423?auto=format&fit=crop&w=400&q=80" alt="Bermuda Navy Stripes">
+            </div>
+            <div class="info-produto">
+              <h3 class="nome-produto">Bermuda Navy Stripes</h3>
+              <p class="categoria-produto">Estampa Exclusiva</p>
+              <div class="preco-produto">
+                <span class="preco-atual">R$ 179,90</span>
+              </div>
+              <div class="opcoes-cor">
+                <span class="cor-circulo" style="background-color: #0b1d3a;"></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Botão Ver Mais -->
+        <div class="container-ver-mais">
+          <button class="botao-carregar-mais">Ver mais produtos</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="rodape-principal">
+    <div class="container-rodape">
+      <div class="grid-rodape">
+        <div class="coluna-logo-rodape">
+          <div class="brand-rodape">
+            <div class="emblema-ma">MA</div>
+            <span class="texto-brand-rodape">MARE ALTA</span>
+          </div>
+          <p class="descricao-rodape">
+            Moda praia premium com alma brasileira, feita para quem vive o verão com estilo.
+          </p>
+        </div>
+
+        <div class="coluna-links-rodape">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="Index.html#inicio">Início</a></li>
+            <li><a href="colecao.html">Coleção</a></li>
+            <li><a href="Index.html#sobre">Sobre nós</a></li>
+            <li><a href="Index.html#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="coluna-links-rodape">
+          <h4>Categorias</h4>
+          <ul>
+            <li><a href="colecao.html">Biquínis</a></li>
+            <li><a href="colecao.html">Maiôs</a></li>
+            <li><a href="colecao.html">Saídas de praia</a></li>
+            <li><a href="colecao.html">Acessórios</a></li>
+          </ul>
+        </div>
+
+        <div class="coluna-links-rodape">
+          <h4>Atendimento</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Trocas e devoluções</a></li>
+            <li><a href="#">Rastrear pedido</a></li>
+            <li><a href="Index.html#contato">Fale conosco</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="linha-divisor-rodape"></div>
+
+      <div class="rodape-bottom">
+        <p>© 2026 MareAlta. Todos os direitos reservados.</p>
+        <div class="links-legais-rodape">
+          <a href="#">Privacidade</a>
+          <a href="#">Termos de uso</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
