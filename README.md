@@ -313,3 +313,13 @@ Localização: `[CIDADE/ESTADO/PAÍS]`
   <br>
   <em>[Seu slogan aqui]</em>
 </p>
+
+
+
+## Possiveis alterações
+
+**Index**
+Trocar a parte Sobre por imagens de roupas e carrossel
+Comentarios vão virar carrossel com a imagem anexada do cliente ao fazer sua avaliação.
+Header vai transformar a parte de coleção em uma ramificação separada da tela em feminino e masculino (pergunte ao daniel ou eu gustavo kkkkkkk)
+
