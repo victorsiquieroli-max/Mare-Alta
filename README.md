@@ -1,19 +1,6 @@
-# Maré Alta — Moda de Praia
+#XXX
 
-> **Maré Alta** é um site de moda de praia criado para apresentar e divulgar produtos, coleções e experiências relacionadas ao universo praiano, com foco em estilo, conforto e personalidade.
-
----
-
-## Sobre o Projeto
-
-**Nome do Projeto:** Maré Alta
-**Categoria:** Moda de Praia
-**Status:** `[Em desenvolvimento / Concluído / Em manutenção]`
-**Versão:** `[Ex.: 1.0.0]`
-**Data de início:** `[DD/MM/AAAA]`
-
-### Descrição
-
+> **Maré 
 `[Escreva aqui uma descrição mais detalhada sobre o projeto, sua proposta, seu público-alvo e seus principais objetivos.]`
 
 Exemplo:
